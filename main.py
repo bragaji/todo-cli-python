@@ -52,7 +52,7 @@ def mark_done(tasks, task_index):
 def main():
     tasks = load_tasks()
     while True:
-        command = input("\nCommand (add/list/delete/done/save/exit): ").strip().lower()
+        command = input("\nCommand (Add/List/Delete/Done/Save/Exit): ").strip().lower()
         if command == "add":
             task = input("Enter task: ")
             add_task(tasks, task)

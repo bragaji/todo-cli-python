@@ -54,7 +54,7 @@ def main():
     while True:
         command = input("\nCommand (Add/List/Delete/Done/Save/Exit): ").strip().lower()
         if command == "add":
-            task = input("Enter task: ")
+            task = input("Enter Task: ")
             add_task(tasks, task)
         elif command == "list":
             list_tasks(tasks)
